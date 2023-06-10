@@ -1,0 +1,78 @@
+/* Main CSS file */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #837f7f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image */
+img {
+  max-width: 50%;
+  height: auto;
+  background: #fff;
+}
+
+/* Content */
+.content {
+  margin-top: 20px;
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5%;
+}
+
+.tags a {
+  color: #333;
+  background-color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+  margin-left: 5px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+  header,
+  footer {
+    padding: 10px;
+  }
+
+  article {
+    padding: 10px;
+  }
+}
+
+/* Social icons */
+
+.social-icons a {
+  color: #fff;
+  background-color: #555;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 20px 0px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: #c7bfbf;
+}
+
+.social-icons .emoji {
+  font-size: 25px;
+}

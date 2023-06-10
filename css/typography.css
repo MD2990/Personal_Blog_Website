@@ -1,0 +1,25 @@
+/* Layout styles */
+
+/* Flexbox */
+header, main, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex-direction: column;
+}
+
+/* CSS Grid */
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+article {
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}

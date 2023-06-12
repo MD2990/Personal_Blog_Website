@@ -1,0 +1,118 @@
+.blog-post-card {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  max-width: 50%;
+  margin: 1% auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.image-caption {
+  font: italic 1em/1.2em "trebuchet ms", sans-serif;
+  color: #524141;
+  text-align: start;
+  margin: 0;
+  padding: 0;
+  margin: 5px;
+  font-size: large;
+}
+
+.blog-post {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.author-info {
+  margin-top: 10px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 2px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  padding: 0 2px 0 2px;
+  margin: 0 2px 0 2px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  text-overflow: ellipsis;
+  word-wrap: none;
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.post-content {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 2%;
+  padding: 0;
+  letter-spacing: 1px;
+}
+
+header {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+
+  padding: 10px;
+  border-radius: 10px;
+  color: #767171;
+  text-align: center;
+  font-size: 20px;
+  text-shadow: 2px 5px 10px #faf9f9;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: bold;
+  color: #666666;
+  margin: 0;
+  padding: 0;
+  margin: 5px;
+  font-size: xx-large;
+  text-shadow: 2px 2px 8px #d7c7c7;
+}
+
+.social-sharing {
+  border-top: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+  justify-content: center;
+  width: 100%;
+}
+
+/*media queries*/
+@media (max-width: 768px) {
+  .blog-post-card {
+    max-width: 50%;
+  }
+}

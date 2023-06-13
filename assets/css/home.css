@@ -1,4 +1,6 @@
-/* CSS styles for Buttons */
+@import url("/assets/css/media_queries.css");
+
+
 button {
   background-color: rgb(226, 218, 218);
   border: none;
@@ -72,59 +74,5 @@ a {
   color: #fff;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .navbar-menu {
-    display: none;
-  }
 
-  .navbar-toggle {
-    display: block;
-  }
 
-  .navbar-toggle-label {
-    display: block;
-  }
-
-  .navbar-toggle:checked ~ .navbar-menu {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    padding: 10px;
-  }
-
-  .navbar-menu ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .navbar-menu li {
-    margin: 10px 0;
-  }
-}
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 10;
-  padding: 5px;
-  width: 100%;
-}
-
-.footer-content {
-  margin-bottom: 10px;
-}
-
-.footer-links a {
-  color: #cfc9c9;
-  text-decoration: none;
-  margin: 0 10px;
-
-}

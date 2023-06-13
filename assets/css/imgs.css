@@ -31,13 +31,13 @@
   border-radius: 20px;
 }
 .img1-div {
-  background-image: url("/images/im_1.jpg");
+  background-image: url("/assets/images/im_1.jpg");
 }
 .img2-div {
-  background-image: url("/images/im_2.jpg");
+  background-image: url("/assets/images/im_2.jpg");
 }
 .img3-div {
-  background-image: url("/images/im_3.png");
+  background-image: url("/assets/images/im_3.png");
 }
 
 .img-title {

@@ -1,0 +1,37 @@
+/*
+All the basic CSS common for all pages here
+*/
+
+button {
+  background-color: rgb(226, 218, 218);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button:hover {
+  background-color: rgb(250, 242, 242);
+  color: rgb(95, 82, 82);
+  transition: 0.8s;
+}
+a {
+  text-decoration: none;
+  color: rgb(112, 98, 98);
+}
+.avatar {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding-top: 1%;
+}
+
+q {
+  color: rgb(128, 36, 36);
+}

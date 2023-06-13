@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Blog Homepage</title>
     <link rel="stylesheet" type="text/css" href="/assets/css/home.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/blog_styles.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/imgs.css" />
-    <link rel="stylesheet" type="text/css" href="/assets/css/avatar.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/footer.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
   </head>
+
   <body>
     <input type="checkbox" id="navbar-toggle" class="navbar-toggle" />
     <label for="navbar-toggle" class="navbar-toggle-label">&#9776;</label>
@@ -26,20 +27,16 @@
       </nav>
     </div>
 
-    <div class="blog-post-card">
-      <div class="card-buttons">
-        <img
-          src="/assets/images/avatar.png"
-          alt="Author Avatar"
-          class="avatar"
-        />
-      </div>
-      <p class="image-caption">
-        Welcome to my blog! I'm a web developer currently working at XYZ
-        Corporation. I'm passionate about web development and design and I love
-        to write about it. I'm also a big fan of music and I love to write about
-        that too. I hope you enjoy my blog!
-      </p>
+    <div class="author-info-home">
+      <figure>
+        <img src="/assets/images/avatar.png" alt="Author Avatar" class="avatar" />
+        <figcaption>
+          Welcome to my blog! I'm a web developer currently working at New Tech
+          Corporation. I'm passionate about web development and design and I
+          love to write about it. I'm also a big fan of music and I love to
+          write about that too. I hope you enjoy my blog!
+        </figcaption>
+      </figure>
     </div>
 
     <section class="img-container">
@@ -66,11 +63,19 @@
     <div class="footer">
       <div class="footer-content">Let's Connect!</div>
       <div class="footer-links">
-        <a href="#"> Youtube </a>
-        <a href="#"> Twitter </a>
-        <a href="#"> Instagram </a>
+        <figure>
+          <figcaption>
+            <a href="#" title="YouTube 🎥">YouTube 🎥</a>
+            <a href="#" title="Twitter 🐦">Twitter 🐦</a>
+            <a href="#" title="Instagram 📸">Instagram 📸</a>
+            <a href="mailto:example@example.com" title="Email Me ✉️">Email Me ✉️</a>
+          </figcaption>
+
+        </figure>
+
       </div>
       <div class="footer-text">© 2023 Majid Ahmed. All rights reserved.</div>
     </div>
   </body>
+
 </html>

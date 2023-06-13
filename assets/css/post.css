@@ -1,7 +1,6 @@
-@import url("/assets/css/footer.css");
-@import url("/assets/css/media_queries.css");
-@import url("/assets/css/avatar.css");
-
+/*
+blog-post page 
+*/
 .blog-post-card {
   display: grid;
   grid-template-columns: 1fr;
@@ -33,6 +32,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 .author-info {
   margin-top: 10px;
   text-align: left;
@@ -44,6 +44,8 @@
   padding: 2px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  
 }
 
 p {
@@ -58,8 +60,6 @@ h2 {
   word-break: keep-all;
   white-space: nowrap;
 }
-
-
 
 .post-content {
   text-align: justify;
@@ -106,4 +106,3 @@ h2 {
   justify-content: center;
   width: 100%;
 }
-
